@@ -29,11 +29,11 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-3">
-          <button className="rounded-md px-4 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900">
+          <button className="rounded-md px-4 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900 hover:cursor-pointer">
             Login
           </button>
 
-          <button className="rounded-md bg-orange-500 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-orange-600">
+          <button className="rounded-md bg-orange-500 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-orange-600 hover:cursor-pointer">
             Registrar
           </button>
         </div>
